@@ -1,0 +1,1 @@
+print("გავიცანი და დავუმეგობრდი: gio gagnidze data diasamidze demetre ekseulidze nikoloz iobashvili  " ) 
