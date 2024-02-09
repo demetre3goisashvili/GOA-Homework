@@ -1,0 +1,1 @@
+print GOA aris dzalian magari da ganvitarebuli saswavlebeli sadac chven megobrul garemoshi vswavlobt codings chven gvyavs dzalian magari mentori batoni nika AKA CHAD
