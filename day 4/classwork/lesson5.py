@@ -23,3 +23,5 @@ y = 10
 
 #masivebi mag: print("demetre" " " "jemali")
 names = ["jemali demetre"]
+
+#my_name es aris snake case
