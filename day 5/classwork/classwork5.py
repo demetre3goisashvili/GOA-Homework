@@ -16,5 +16,3 @@ print(myName)
 
 #compiler: mtargmneli erti enidan meoreze
 
-
-
