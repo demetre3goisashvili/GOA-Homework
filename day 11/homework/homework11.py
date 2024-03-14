@@ -22,7 +22,8 @@ num2 = int(input("please enter a number: "))
 if num2 % 2 == 0:
     print(num2 / 2)
 else:
-    print(num2 *3 +1)
+    num2 * 3 +1
+    print(num2)
 
 
 
