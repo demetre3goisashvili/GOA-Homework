@@ -1,0 +1,45 @@
+p{
+    font-size: 27;
+    color: white;
+    
+}
+
+.first_h{
+    font-size: 40;
+    color: cyan;
+}
+
+.second_h{
+    font-size: 38;
+    color: cyan;
+}
+
+.third_h{
+    font-size: 36;
+    color: cyan;
+}
+
+.fourth_h{
+    font-size: 34;
+    color: cyan;
+}
+
+.fifth_h{
+    font-size: 32;
+    color:cyan;
+}
+
+.sixth_h{
+    font-size: 30;
+    color: cyan;
+}
+
+Body {
+    background-color:black;
+    border: 1px solid white
+}
+
+button {
+    padding: 14px 28px;
+}
+
