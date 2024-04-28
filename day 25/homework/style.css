@@ -1,0 +1,53 @@
+Body {
+    background-color: darkslategray;
+    border: 1px solid white;
+    }
+
+
+.first_h{
+    color: aquamarine;
+    background-color: black;
+    border: 1px solid white;
+    font-size: 39;
+
+}
+.second_h{
+    color:aquamarine;
+    background-color: dimgray;
+    border: 1px solid white;
+    font-size: 37;
+}
+.third_h{
+    color:aquamarine;
+    background-color: dimgray;
+    font-size: 35;
+    border: 1px solid white;
+
+}
+.first{
+    color:chartreuse;
+    font-size: 30;
+    background-color: dimgray;
+    border: 1px solid white;
+    
+}
+.second{
+    color:chartreuse;
+    background-color:dimgrey;
+    font-size: 30;
+    border: 1px solid white;
+
+}
+.fourth_h{
+    color:aquamarine;
+    font-size:33 ;
+    background-color: dimgray;
+    border: 1px solid white;
+    
+}
+.fifth_h{
+    color:aquamarine;
+    font-size: 33;
+    background-color: dimgray;
+    border: 1px solid white;
+}
