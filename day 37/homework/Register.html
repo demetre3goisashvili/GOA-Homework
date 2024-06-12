@@ -13,6 +13,30 @@
         #i-1{
             color: darkmagenta;
         }
+        #form-1{
+            margin-top: 100px;
+            margin-left: 500px;
+            border: 1px solid;
+            width: 200px;
+            padding: 50px;
+        }
+        .input1{
+            width: 180px;
+            height: 40px;
+            background-color: black;
+            border: 1px solid;
+            border-radius: 12px;
+
+        }
+        #submit{
+          margin-top: 0px;
+          margin-left: -120px;
+          background-color: fuchsia;
+          border: 1px solid;
+          border-radius: 12px;
+          height: 30px;
+          width: 60px;
+        }
 
     </style>
 </head>
@@ -22,12 +46,13 @@
         <a href="index.html">Home</a>
         <a href="Register.html">Sign up</a>
     </nav>
-    <form style="text-align: center; border: 2px solid; width: -200px;padding: 20px; font-size: 20px; ">
-        <input type="text" placeholder="Username"><br><br>
-        <input type="email" placeholder="Email"><br><br>
-        <input type="password" placeholder="password"><br><br>
-        <input type="date">
-        <input type="submit">
+    <form id="form-1" style="text-align: center;">
+        <input class="input1" type="text" placeholder="Username"><br><br>
+        <input class="input1"  type="email" placeholder="Email"><br><br>
+        <input class="input1"  type="password" placeholder="password"><br><br>
+        
+        
+        <input id="submit" type="submit">
     </form>
 </body>
 </html>
