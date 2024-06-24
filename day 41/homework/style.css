@@ -1,0 +1,122 @@
+div{
+    text-align: center;
+    margin-top: 200px;
+   
+}
+img{
+    border-radius: 50%;
+    outline: 4px;
+    outline-style: solid;
+    outline-width: thin;
+}
+h1{
+    font-size: 55px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: 3;
+}
+p{
+    font-size: 25px;
+    color: gray;
+}
+#img-gravida{
+    margin-left: -780px;
+}
+#h1-gravida{
+    margin-top: -200px;
+    margin-left: -200px;
+}
+#p-gravida{
+    color: gray;
+    font-size: 25px;
+}
+#skibidi{
+    margin-top: -100px;
+    margin-left: 730px;
+}
+#gravida{
+    border: 1px solid gray;
+    padding: 70px;
+    border-radius: 15px;
+    width: 900px;
+    margin-left: 430px;
+}
+#h1-consequat{
+    margin-top: -200px;
+    margin-left: -200px;
+}
+#p-consequat{
+    color: gray;
+    font-size: 25px;
+}
+#skibidi1{
+    margin-top: -100px;
+    margin-left: 730px;
+}
+#consequat{
+    border: 1px solid gray;
+    padding: 70px;
+    border-radius: 15px;
+    margin-left: 430px;
+    width: 900px;
+    margin-top: 30px;
+}
+#h1-elementum{
+    margin-top: -200px;
+    margin-left: -200px;
+}
+#p-elementum{
+    color: gray;
+    font-size: 25px;
+}
+#skibidi2{
+    margin-top: -100px;
+    margin-left: 730px;
+}
+#elementum{
+    border: 1px solid gray;
+    padding: 70px;
+    border-radius: 15px;
+    margin-left: 430px;
+    width: 900px;
+    margin-top: 30px;
+}
+#h1-integer{
+    margin-top: -200px;
+    margin-left: -200px;
+}
+#p-integer{
+    color: gray;
+    font-size: 25px;
+}
+#skibidi3{
+    margin-top: -100px;
+    margin-left: 730px;
+}
+#integer{
+    border: 1px solid gray;
+    padding: 70px;
+    border-radius: 15px;
+    margin-left: 430px;
+    width: 900px;
+    margin-top: 30px;
+}
+#h1-ultrices{
+    margin-top: -200px;
+    margin-left: -200px;
+}
+#p-ultrices{
+    color: gray;
+    font-size: 25px;
+}
+#skibidi4{
+    margin-top: -100px;
+    margin-left: 730px;
+}
+#ultrices{
+    border: 1px solid gray;
+    padding: 70px;
+    border-radius: 15px;
+    margin-left: 430px;
+    width: 900px;
+    margin-top: 30px;
+}
