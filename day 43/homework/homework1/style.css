@@ -1,0 +1,49 @@
+body{
+    background-color: bisque;
+}
+#parent{  
+    margin: 200px 600px;
+    background-color: white;
+    width: 900px;
+    height: 650px;
+    border-radius: 10px;  
+}
+#child{
+    padding-left: 550px;
+    padding-top: 150px;
+    font-size: larger;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serifp;
+    font-weight: 900;
+}
+h2{
+    color: grey;
+    font-style: italic;
+}
+img{
+    margin-top: -400px;
+    margin-left: -550px ;
+    width: 500px;
+    height: 650px;
+}
+p{
+    margin-top: -250px;
+    color: grey;
+}
+#price{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: green;
+}
+#sale{
+    margin-top: -70px;
+    margin-left: 170px;
+    text-decoration: line-through;
+}
+a{
+    background-color: green;
+    padding: 15px 100px;
+    margin-top: 100px;
+    text-decoration: none;
+    color: white;
+    border-radius: 12px;
+    
+}
