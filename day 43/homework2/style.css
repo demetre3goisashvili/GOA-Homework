@@ -1,0 +1,16 @@
+#child{
+    background-color: bisque;
+    width: 1500px;
+    height: 800px;
+    margin-left: 200px;
+    margin-top: 50px;
+}
+h1{
+    padding: 50px;
+}
+#nav-bar{
+    margin-top: -720px;
+    margin-left: 1200px;
+    text-decoration: none;
+    color: black;
+}
