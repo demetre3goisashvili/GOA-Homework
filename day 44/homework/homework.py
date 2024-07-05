@@ -388,17 +388,17 @@ print(popik)
 #         print("nononon")
 
 # list4.sort()
-list4.sort(reverse=True)
+# list4.sort(reverse=True)
 
 asdasdasda = [1,2,3,4,5,6,7,8,9,10]
 kr = []
 L = asdasdasda[::3]
 kr.append(L)
 
-max_value = max(list4)
-min_value = min(list4)
+# max_value = max(list4)
+# min_value = min(list4)
 
-print(max_value , min_value)
+# print(max_value , min_value)
 
 i = 1
 while i <= 10:
@@ -418,43 +418,34 @@ print("Factorial is", f)
 c = 1
 while c <= 100:
     c += 1
-    if c % 5 == 0:
-
-
-#amas avtvirtav for loopebi damrcha da punkciebi
-
-        
+    print(c)
 
 
 
 
+test_list = [1,2,3,4,5,6,7,8,9,10]
+
+for i in test_list:
+    print(i)
+
+for i in range(11):
+    print(i)
 
 
 
 
+test_list = [1,2,3,4,5,6,7,8,9,10]
+Sum = sum(test_list)
+for i in test_list:
+    print(Sum)
 
 
-
-    
-
-        
-        
-        
+for i in range(51):
+    if i % 2 == 0:
+        print(f"even {i}")
 
 
-    
+string = "randomstuff"
 
-
-
-
-
-
-
-
- 
-
-
-
-
-
-
+for i in range(len(string)):
+    print(string[i])
