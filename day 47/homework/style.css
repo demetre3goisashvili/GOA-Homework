@@ -1,0 +1,97 @@
+div{
+    position: relative;
+    border: 1px solid gray;
+    width: 700px;
+    left: 950px;
+    top: 50px;
+    height: 1100px;
+    border-radius: 20px;
+    box-shadow: gray 3px 2px 5px 2px;
+    overflow: hidden;
+    text-align: center;
+    
+}
+
+img{
+    width: 700px;
+    
+}
+
+h1{
+    position: relative;
+    top: 50px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 900;
+    font-size: 45px;
+}
+
+#disc{
+    position: relative;
+    top:80px ;
+    font-size: 25px;
+    color: gray;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+#lil{
+    background-color: rgba(100, 100, 100, 0.1);
+    position: relative;
+    top: 120px;
+    left: 100px;
+    width: 500px;
+    height: 120px;
+    border-radius: 20px;
+}
+
+.text{
+    position: relative;
+    right: 50px;
+    
+}
+
+#price{
+    position: relative;
+    bottom: 10px;
+}
+
+a{
+    position:relative;
+    top:-110px;
+    left:250px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color:darkblue ;
+}
+
+#music{
+    position: relative;
+    bottom: 90px;
+    right:180px ;
+    width: 60px;
+    height: 60px;
+    border: 1px solid white;
+    border-radius: 50px;
+    background-color: rgba(100, 100, 100, 0.3);
+    
+}
+#submit{
+    position: relative;
+    top: 200px;
+    left: 0px;
+    text-align: center;
+    background-color: blue;
+    padding: 25px 180px 25px 180px;
+    color: white;
+    text-decoration: none;
+    font-size: 20px;
+    border-radius: 20px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+#cancel{
+    position: relative;
+    top: 250px;
+    font-size: 23px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: gray;
+}
+
