@@ -1,0 +1,62 @@
+#guram{
+    height: 100px;
+    width: 100px;
+}
+
+hr{
+    height: 50px;
+    background-color: blueviolet;
+    width: 500px;
+}
+footer{
+    background-color: gray;
+    border-radius: 5px;
+}
+
+#nav-1{
+    position: relative;
+    left: 1800px;
+    top: -50px;
+    
+    
+    
+}
+.a-tag{
+    background-color: beige;
+    padding: 10px;
+    text-decoration: none;
+    color: black;
+
+    
+}
+header{
+    background-color: darkgray;
+}
+#first-h{
+    text-align: left;           
+}
+#i-1{
+    color: darkmagenta;
+}
+#first-p{
+    margin-top: -20px;
+}
+
+#search{
+    position: relative;
+    left: 2000px;
+    width: 300px;
+    height: 50px;
+    top: -50px;
+    background-color:darkslategrey;
+    color: white;
+    border-radius: 13px;
+}
+#custom{
+    width: 600px;
+    height: 400px;
+    background-image: url(https://tbiliselebi.ge/files/2022/04/28/4533/guram-sherozia_w_h.jpeg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    
+}

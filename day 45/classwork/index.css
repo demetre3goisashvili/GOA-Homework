@@ -1,0 +1,34 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+
+
+
+
+.parent {
+    width: 1800px;
+    height: 1200px;
+    border: 5px solid red;
+    display: grid;
+    grid-template-columns: 2fr 2fr 2fr;
+    gap: 50px;
+    /* fractional unity rom gamovitvalot vtkvat me davwere 1fr 2fr 1fr jamshi gamodis 4 fractional unity, aseve isic vicit rom width da height orive aris 1200px amitomac 1200 / 4 da mivigebt 300 eseigi tito fractional unity ikneba 300px me mchirdeba 3 sveti pirveli ikneba 1fr-300px 2fr-300 * 2 = 600 1fr-300px */
+    
+}
+
+.child {
+    background-color: green;
+    color: white;
+    border: 3px solid blue;
+    font-size: 60px;
+}

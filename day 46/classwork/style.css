@@ -1,0 +1,33 @@
+header{
+    background-color: grey;
+    height: 200px;
+    padding: 20px;
+    position: fixed;
+    width: 2800px;
+    
+}
+
+h1{
+    font-family:Arial, Helvetica, sans-serif;
+    font-size: 80px;
+}
+
+nav{
+    position: relative;
+    left: 1800px;
+    bottom: 100px;
+}
+
+.nav-tag{
+    background-color: black;
+    padding: 20px;
+    font-size: 20px;
+    text-decoration: none;
+    color: white;
+    border-radius: 10px;
+    margin: 10px;
+}
+
+i{
+    color:darkcyan ;
+}
