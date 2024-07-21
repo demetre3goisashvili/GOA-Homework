@@ -1,0 +1,65 @@
+
+
+
+
+#pirveli {
+    background-color: green;
+    width: 300px;
+    height: 300px;
+    transform: rotate(45deg);
+}
+
+button:hover {
+    transform: scale(1.2);
+}
+
+#translate {
+    height: 300px;
+    width: 300px;
+    border-radius: 50%;
+    background-color: green;
+    transform: translateX(100px);
+
+}
+
+
+#both {
+    height: 200px;
+    width: 200px;
+    background-color: green;
+    transform: translateX(100px);
+    transform: scale(1.5) rotate(90deg) ;
+}
+
+#transition {
+    height: 200px;
+    width: 200px;
+    background-color: green;
+    transition: 0.5s;
+}
+
+#transition:hover {
+    background-color: blue;
+}
+
+#smooth {
+    width: 200px;
+    height: 200px;
+    background-color: green;
+    transition:width 1s, height 1s;
+}
+
+#smooth:hover {
+    width: 300px;
+    height: 300px;
+}
+
+h2 {
+    transition: 1s;
+}
+
+h2:hover {
+    transform: rotate(10deg);
+}
+
+
