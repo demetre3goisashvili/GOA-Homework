@@ -11,7 +11,7 @@ header {
     align-items: center;
     position: fixed;
     width: 100%;
-    z-index: 1;
+    
 }
 h1 {
     color: white;
@@ -53,7 +53,7 @@ p {
     }
 }
 
-@media (min-width:400px) and (max-width:464px) {
+@media (min-width:400px) and (max-width:2407px) {
     a {
         margin: 2px;
     }
