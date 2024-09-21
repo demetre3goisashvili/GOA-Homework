@@ -41,3 +41,12 @@ function changeP() {
 }
 
 changeP();
+
+function myGetElementByTagName(tagName){
+    const allTag = document.all
+    for(let i = 0;i < allTag.length; i++){
+        if(allTag[i].tagName === tagName){
+            console.log(i)
+        }
+    }
+}
