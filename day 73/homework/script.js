@@ -15,13 +15,9 @@ class Animal {
 }
 
 let dog = new Animal("Tobi", "Dog", "8");
-Animal.sound();
+dog.sound();
 
-class Lion extends Animal {
-    sound(){
 
-    }
-}
 
 
 class Car {
@@ -38,7 +34,7 @@ class Car {
 }
 
 let mercedes = new Car("Mercedes", "E-class", "2022");
-Car.details();
+mercedes.details();
 
 class Human{
     constructor(name,lastname, age, address){
