@@ -1,0 +1,156 @@
+
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap');
+
+
+* {
+    margin: 0;
+    box-sizing: border-box;
+    padding: 0;
+
+}
+
+#g1 {
+    position: relative;
+    right: 225px;
+    font-size: 40px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+#nav-bar{
+    display: flex;
+    border: 1px gray solid  ;
+    justify-content: space-between;
+    height: 80px;
+    justify-content: space-around;
+    align-items: center;
+}
+#nav a{
+    margin: 50px;
+    font-size: 20px;
+    text-decoration: none;
+    color: darkmagenta ;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    transition: 0.25s;
+}
+
+#nav a:hover{
+    font-size: 28px;
+    cursor: pointer;
+    transition: 0.25s;
+    color: white;
+    
+}
+
+span{
+    color: darkmagenta;
+}
+
+#info{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    height: 800px;
+    gap: 40px;
+    position: relative;
+    top: 100px;
+}
+
+.srt {
+
+    position: relative;
+    left: 150px;
+    bottom: 15px;
+    height: 100px;
+    width: 100px;
+    background-position: center;
+    background-size: cover;
+    border-radius: 50%;
+}
+
+.deme {
+    background-image: url("guram-sherozia_w_h.jpeg");
+}
+
+.mate {
+    background-image: url("kachoki.png");
+}
+
+.tsotn {
+    background-image: url("bajelidze.jpg");
+}
+
+.nik {
+    background-image: url("kukava.jpg");
+}
+
+.neb {
+    background-image: url("zangebi.jpg");
+}
+
+.bat {
+    background-image: url("bat.jpg");
+}
+
+img{
+    height: 550px;
+    position: relative;
+    left: 540px;
+    top: 90px;
+    border-radius: 50px;
+    border: 2px darkmagenta solid;
+    transition: 0.25s;
+}
+
+img:hover{
+    transform: scale(1.1);
+    border: 3px darkmagenta solid;
+    transition: 0.25s;
+}
+
+.pfp{
+    border: 2px gray solid;
+    height: 300px;
+    border-radius: 12px;
+    padding: 20px;
+    transition: 0.25s;
+}
+
+.pfp:hover{
+    transform: scale(1.1);
+    transition: 0.25s;
+    cursor: pointer;
+}
+#footer{
+    height: 150px;
+    border: 2px gray solid;
+    margin-top: 100px;
+}
+
+#footer-nav{
+    position: relative;
+    left: 650px;
+    top: 30px;
+    justify-content: space-between;
+
+
+}
+#footer-h2{
+    position: relative;
+    left: 200px;
+}
+
+
+.footer-a{
+    font-size: 20px;
+    text-decoration: none;
+}
+
+
+
+
+
+
+
+

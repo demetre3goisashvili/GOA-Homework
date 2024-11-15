@@ -1,0 +1,52 @@
+.stack-vertical {
+    display: grid;
+    grid-template-rows: repeat(4, 1fr); 
+    gap: 10px;
+  }
+  
+.stack-horizontal {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr); 
+    gap: 10px;
+}
+
+.centered {
+    display: grid;
+    place-items: center; 
+    height: 200px; 
+    width: 200px; 
+    border: 1px solid #ccc;
+}
+
+.grid-2x2 {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    gap: 10px;
+}
+  
+.grid-3x3 {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(3, 1fr);
+    gap: 10px;
+}
+  
+.grid-4x4 {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: repeat(4, 1fr);
+    gap: 10px;
+}
+  
+  
+  
+.bento-grid {
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    grid-template-rows: 1fr 2fr;
+    gap: 10px;
+}
+  
+
+

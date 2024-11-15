@@ -1,6 +1,6 @@
 const prev = document.querySelector("#prev")
 const next = document.querySelector("#next")
-const image = document.querySelector("#car")
+let image = document.querySelector("#car")
 const carArr = ["car1.png", "car2.png", "car3.png"]
 let index = 0
 
