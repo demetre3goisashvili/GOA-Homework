@@ -11,3 +11,20 @@ function bubbleSort(arr) {
     return arr;
 }
 
+
+
+let masivi = [
+    {name:"jemali", lastName:"vardevanianka"}, 
+    {name:"prokopi", lastName:"blebleblelbe"}
+]
+
+for (let haha in masivi[0]){
+    console.log(masivi[0][haha])
+    
+}
+
+for (let hahaha in masivi[1]){
+    console.log(masivi[1][hahaha])
+    
+}
+

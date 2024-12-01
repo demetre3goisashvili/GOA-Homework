@@ -1,0 +1,306 @@
+
+@font-face {
+    font-family:poppins-bold ;
+    src: url("Poppins-Bold.ttf");
+}
+@font-face {
+    font-family:poppins-extrabold ;
+    src: url("Poppins-ExtraBold.ttf");
+}
+@font-face {
+    font-family:poppins-extrabolditalic ;
+    src: url("Poppins-ExtraBoldItalic.ttf");
+}
+@font-face {
+    font-family:poppins-regular ;
+    src: url("Poppins-Regular.ttf");
+}
+@font-face {
+    font-family:poppins-italic ;
+    src: url("Poppins-Italic.ttf");
+}
+@font-face {
+    font-family:poppins-bolditalic ;
+    src: url("Poppins-BoldItalic.ttf");
+}
+html {
+    background: rgb(252, 239, 239);
+    overflow-y: hidden;
+}
+main{
+    overflow-y: hidden;
+}
+    
+#main{
+    position: relative;
+    top: 100px;
+    left: 500px;
+    height: 80vh;
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    width: 900px;
+    background-color: white;
+    border-bottom-right-radius: 30%;
+}
+
+#day{
+    position: relative;
+    bottom: 150px;
+    right: 140px;
+}
+
+#month{
+    position: relative;
+    bottom: 295px;
+    left: 30px;
+}
+
+#year{
+    position: relative;
+    bottom: 438px;
+    left: 200px;
+}
+
+#dd{
+    height: 64px;
+    font-family:poppins-bold ;
+    width: 30%;
+    font-size: 30px;
+    border-radius: 4px;
+    border: 1px gray solid;
+    padding-left: 10px;
+}
+
+#dd:focus{
+    border: 3px  rgb(119, 0, 255) solid;
+}
+
+
+#mm{
+    height: 64px;
+    font-family:poppins-bold ;
+    width: 30%;
+    font-size: 30px;
+    border-radius: 4px;
+    border: 1px gray solid;
+    padding-left: 10px;
+}
+#mm:focus{
+    border: 3px  rgb(119, 0, 255) solid;
+}
+
+#yyyy{
+    height: 64px;
+    font-family:poppins-bold ;
+    width: 30%;
+    font-size: 30px;
+    border-radius: 4px;
+    border: 1px gray solid;
+    padding-left: 10px;
+}
+#yyyy:focus{
+    border: 3px  rgb(119, 0, 255) solid;
+}
+
+#d{
+    font-family:poppins-bolditalic ;
+}
+
+#m{
+    font-family:poppins-bolditalic ;
+}
+
+
+#y{
+    font-family:poppins-bolditalic ;
+}
+
+#submit{
+    z-index: 1;
+    position: relative;
+    left: 1200px;
+    bottom: 520px;
+    border-radius: 50%;
+    border: 1px gray solid;
+    height: 100px;
+    width: 100px;
+    background-color: rgb(119, 0, 255);
+    transition: 0.15s;
+}
+
+#icon-line{
+    z-index: 1;
+    position: relative;
+    left: 570px;
+    bottom: 450px;
+    color: rgb(171, 167, 167);
+    width: 500px;
+}
+
+#submit:active{
+    background-color: black;
+    transition: 0.15s;
+}
+
+#yy-h1{
+    position: relative;
+    bottom: 600px;
+    left: 550px;
+    font-size: 110px;
+    font-family: poppins-bolditalic;
+    width: 600px;
+}
+
+#mm-h1{
+    position: relative;
+    bottom: 690px;
+    left: 550px;
+    font-size: 110px;
+    font-family: poppins-bolditalic;
+    width: 600px;
+}
+
+#dd-h1{
+    position: relative;
+    bottom: 780px;
+    left: 550px;
+    font-size: 110px;
+    font-family: poppins-bolditalic;
+    width: 600px;
+}
+
+#yy-span{
+    color: rgb(119, 0, 255);
+}
+
+#mm-span{
+    color: rgb(119, 0, 255);
+}
+
+#dd-span{
+    color: rgb(119, 0, 255);
+}
+
+#error-message{
+    position: relative;
+    bottom: 530px;
+    left: 920px;
+    font-size: 14px;
+    font-family: poppins-regular;
+    height: 14px;
+    width: 180px;
+}
+#error-message1{
+    position: relative;
+    bottom: 565px;
+    left: 720px;
+    font-size: 14px;
+    font-family: poppins-regular;
+    height: 14px;
+    width: 190px;
+}
+#error-message2{
+    position: relative;
+    bottom: 590px;
+    left: 550px;
+    font-size: 14px;
+    font-family: poppins-regular;
+    height: 14px;
+    width: 170px;
+}
+
+#error-message3{
+    position: relative;
+    bottom: 530px;
+    left: 920px;
+    font-size: 14px;
+    font-family: poppins-regular;
+    height: 14px;
+    width: 180px;
+}
+
+#error-message4{
+    position: relative;
+    bottom: 565px;
+    left: 720px;
+    font-size: 14px;
+    font-family: poppins-regular;
+    height: 14px;
+    width: 190px;
+}
+
+#error-message5{
+    position: relative;
+    bottom: 590px;
+    left: 550px;
+    font-size: 14px;
+    font-family: poppins-regular;
+    height: 14px;
+    width: 170px;
+}
+
+@media (max-width:400px) and (max-height:900px) {
+    #main{
+        left: 0px;
+        width: 400px;
+        border-radius: 30px;
+        height: 70vh;
+    }
+
+    #day{
+        right: -30px;
+        bottom: 100px;
+    }
+    #month{
+        left: 150px;
+        bottom: 245px;
+    }
+
+    #year{
+        left: 270px;
+        bottom: 388px;
+
+    }
+
+    #dd{
+        width: 20%;
+    }
+    #mm{
+        width: 20%;
+    }
+    #yyyy{
+        width: 20%;
+    }
+    #icon-line{
+        left: 0px;
+        bottom: 300px;
+        width: 400px;
+        overflow: hidden;
+    }
+    #submit{
+        left: 150px;
+        bottom: 370px;
+    }
+    #yy-h1{
+        left: 0px;
+        font-size: 80px;
+        bottom: 450px;
+        width: 400px;
+    }
+    #mm-h1{
+        left: 0px;
+        font-size: 75px;
+        bottom: 540px;
+        width: 400px;
+    }
+    #dd-h1{
+        left: 0px;
+        font-size: 75px;
+        bottom: 630px;
+        width: 400px;
+    }
+}
+
+
+
