@@ -30,6 +30,7 @@ html {
 main{
     overflow-y: hidden;
 }
+
     
 #main{
     position: relative;
@@ -42,6 +43,7 @@ main{
     width: 900px;
     background-color: white;
     border-bottom-right-radius: 30%;
+    border-radius: 10px 10px 30% 10px;
 }
 
 #day{
