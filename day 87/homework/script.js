@@ -79,3 +79,13 @@ let mapToClear = new Map([
 ]);
 
 mapToClear.clear();
+
+
+
+
+
+
+// performance, iteraciis tanmimdevroba obiektma sheidzleba arios arr-ebshi, json-istvis jobia obiektebi
+
+
+// performance, da ar shegvidzlia erti da igive valuebi gavaketot
