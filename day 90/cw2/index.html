@@ -4,20 +4,28 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
 </head>
 <body>
-    <form>
-        <h1>signup / sign in</h1>
-        <input id="nm" type="text" placeholder="name"> 
-        <input id="pizika" type="number" placeholder="qula">
-        <input id="matematika" type="number" placeholder="qula">
-        <input id="kartuli" type="number" placeholder="qula">
-        <input id="inglisuri" type="number" placeholder="qula">
+    <form id="su">
+        <h1 style="text-decoration: underline; position: relative; left: 55px;">რეგისტრაცია</h1>
+        <input class="su-in" id="nm" type="text" placeholder="სახელი"><br> 
+        <input class="su-in"  id="pass" type="password" placeholder="პაროლი"><br>
+        <input class="su-in"  id="pizika" type="number" placeholder="ფიზიკა"><br>
+        <input class="su-in"  id="matematika" type="number" placeholder="მათემატიკა"><br>
+        <input class="su-in"  id="kartuli" type="number" placeholder="ქართული"><br>
+        <input class="su-in"  id="inglisuri" type="number" placeholder="ინგლისური"><br><br>
     </form>
+    <button id="signup">Sign Up</button><br>
 
-    <div id="kulebi">
-    </div>
-
-    <button id="sash">sashualo</button>
+    <form id="si">
+        <h1 style="text-decoration: underline; position: relative; left: 105px;">შესვლა</h1>
+        <input class="si-in" id="name" type="text" placeholder="სახელი"><br>
+        <input class="si-in" id="password" type="password" placeholder="პაროლი">
+    </form>
+    <button id="signin">Sign In</button>
+    
+    <script src="script.js"></script>
 </body>
 </html>

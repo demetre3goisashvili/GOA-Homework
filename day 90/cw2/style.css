@@ -1,0 +1,75 @@
+#scorecontainer{
+    border: 1px solid #ccc;
+    margin: 16px;
+    padding: 16px;
+    border-radius: 8px;
+    background-color:#f9f9f9 ;
+    
+}
+
+
+#su{
+    position: relative;
+    left: 500px;
+    width: 400px;
+}
+
+.su-in{
+    height: 40px;
+    width: 300px;
+    margin: 10px;
+    padding-left: 10px;
+    border-radius: 8px;
+    background-color:#f4e3e3  ;
+
+}
+
+#signup{
+    height: 40px;
+    width: 340px;
+    padding-left: 10px;
+    background-color:#e8d0d0  ;
+    left: 500px;
+    position: relative;
+    transition: 0.25s;
+}
+
+#signup:hover{
+    background-color: #e8d0d09d;
+    transition: 0.25s;
+}
+
+
+
+#si{
+    position: relative;
+    left: 1100px;
+    bottom: 300px;
+    width: 400px;
+}
+
+.si-in{
+    height: 40px;
+    width: 300px;
+    margin: 10px;
+    padding-left: 10px;
+    border-radius: 8px;
+    background-color:#f4e3e3  ;
+}
+
+
+#signin{
+    height: 40px;
+    width: 340px;
+    padding-left: 10px;
+    background-color:#e8d0d0  ;
+    left: 1100px;
+    bottom: 280px;
+    position: relative;
+    transition: 0.25s;
+}
+
+#signin:hover{
+    background-color: #e8d0d09d;
+    transition: 0.25s;
+}
