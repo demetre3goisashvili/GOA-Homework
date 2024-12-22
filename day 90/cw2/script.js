@@ -13,14 +13,19 @@ let signin = document.getElementById("signin");
 let base = new Map(); 
 
 signup.addEventListener("click", function () {
-  if (nm.value.trim() !== "" && pass.value() !== "" && !base.has(nm.value)) {
+  if (nm.value !== "" && pass.value !== "" && !base.has(nm.value)) {
     base.set(nm.value, {
       password: pass.value,
-      scores: [Number(pizika.value), Number(matematika.value), Number(kartuli.value), Number(inglisuri.value)],
+      scores: [
+        Number(pizika.value),
+        Number(matematika.value),
+        Number(kartuli.value),
+        Number(inglisuri.value),
+      ],
     });
     alert("წარმატებული რეგისტრაცია!");
   } else {
-    alert("ამ სახელით რეგისტრაცია უკვე არსებობს..");
+    alert("ამ სახელით რეგისტრაცია უკვე არსებობს ან ველები ცარიელია.");
   }
 });
 
@@ -78,6 +83,7 @@ signin.addEventListener("click", function () {
       
       changeSubject.addEventListener("keydown", (event) => {
         if (event.key === "Enter") {
+          console.log(event)
           let subject = changeSubject.value;  
           
           let changeScore;
@@ -101,7 +107,7 @@ signin.addEventListener("click", function () {
             alert("საგანი არ არის ბაზაში, ხელახლა ცადეთ!");
           }
   
-          // After updating the score, recalculate and update the average
+         
           let totalScore = scores[0] + scores[1] + scores[2] + scores[3];
           let average = totalScore / 4;
           avaragedisplay.textContent = `${nm.value}-ს საშუალო ქულა არის ${average}`;

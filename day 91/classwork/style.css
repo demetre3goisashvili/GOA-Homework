@@ -1,21 +1,60 @@
+html, body {
+  margin: 0;
+  padding: 0;
+  height: 100%; /* Ensure the parent container can take full height */
+  overflow-x: hidden;
+}
+
+main {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%; /* Center the content vertically and horizontally */
+}
+
+header{
+  background-color: rgb(92, 29, 250);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 50px;
+}
+
+a{
+  padding: 20px;
+  text-decoration: none;
+  color: white;
+  font-size: 20px;
+  transition: 0.25s;
+}
+
+a:hover{
+  color: rgb(56, 195, 234);
+  transition: 0.25s;
+}
+
 .book-container {
-    display: flex;
-    flex-wrap: wrap;
-    gap: 16px;
-    padding: 16px;
-  }
-  .book-card {
-    border: 1px solid #ddd;
-    border-radius: 8px;
-    padding: 16px;
-    max-width: 200px;
-    background-color: #f9f9f9;
-  }
-  .book-card h1 {
-    font-size: 1.2em;
-    margin-bottom: 8px;
-  }
-  .book-card p {
-    margin: 4px 0;
-  }
-  
+  display: grid;
+  gap: 16px;
+  padding: 16px;
+  grid-template-columns: repeat(3, 1fr); 
+  grid-auto-rows: minmax(150px, auto);
+}
+
+.book-card {
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  padding: 16px;
+  background-color: #f9f9f9;
+  transition: transform 0.3s, box-shadow 0.3s;
+}
+
+.book-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.book-card h1 {
+  font-size: 1.2em;
+  margin-bottom: 8px;
+}
