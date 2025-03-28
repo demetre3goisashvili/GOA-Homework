@@ -31,7 +31,6 @@ button1.textContent = 'click me'
 main.appendChild(input1)
 main.appendChild(button1)
 const randomNum = Math.floor(Math.random() * 10) + 1;
-console.log(randomNum)
 button1.addEventListener('click', ()=>{
     if (randomNum > Number(input1.value)){
         alert('higher')
