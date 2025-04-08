@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+  <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+  <style>
+    body{
+        background: rgb(252, 239, 239);
+    }
+  </style>
+</head>
+<body class="flex justify-center align-center h-screen">
+  <main class="text-center">
+    <div class="h-200 w-250 bg-white rounded-br-4xl" id="main">
+      <div class="flex justify-around relative top-20" id="dates">
+        <div id="day">
+          <h2 class="text-xl font-sans" id="d">DAY</h2>
+          <form>
+            <input class="h-15 w-35 border pl-5 text-2xl rounded-sm focus:border-purple-500 outline-none p-2 rounded" id="dd" type="text" placeholder="DD">
+          </form>
+        </div>
+        <div id="month">
+          <h2 class="text-xl font-sans" id="m">MONTH</h2>
+          <form>
+            <input class="h-15 w-35 border pl-5 text-2xl rounded-sm focus:border-purple-500 outline-none p-2 rounded" id="mm" type="text" placeholder="MM">
+          </form>
+        </div>
+        <div id="year">
+          <h2 class="text-xl font-sans" id="y">YEAR</h2>
+          <form>
+            <input class="h-15 w-35 border pl-5 text-2xl rounded-sm focus:border-purple-500 outline-none p-2 rounded" id="yyyy" type="text" placeholder="YYYY">
+          </form>
+        </div>
+      </div>
+    </div>
+    <div class="flex relative bottom-150 left-10" id="icon">
+      <p id="icon-line">______________________________________________________________________________________________________________________</p> 
+      <button class="bg-violet-700 h-25 w-25 rounded-full flex justify-center align-center" id="submit"><img src="/day 86/homework/assets/images/icon-arrow.svg"></button>
+    </div>
+    <div class="relative bottom-150 text-start pl-10">
+        <h1 class="text-9xl font-semibold font-sans" id="yy-h1"><span id="yy-span">--</span>years</h1>
+        <h1 class="text-9xl font-semibold font-sans" id="mm-h1"><span id="mm-span">--</span>months</h1>
+        <h1 class="text-9xl font-semibold font-sans" id="dd-h1"><span id="dd-span">--</span>days</h1>
+    </div>
+  </main>
+
+  <script src="script.js"></script>
+</body>
+</html>

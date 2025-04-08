@@ -2,7 +2,9 @@ let dd = document.getElementById("dd");
 let mm = document.getElementById("mm");
 let yyyy = document.getElementById("yyyy");
 let submit = document.getElementById("submit");
-
+let dge = document.getElementById("day");
+let tve = document.getElementById("month");
+let weli = document.getElementById("year");
 const today = new Date();
 const year = today.getFullYear();
 const month = today.getMonth() + 1; 
@@ -31,7 +33,7 @@ submit.addEventListener("click", function(event) {
             errorMessage.textContent = "year must be in the past.";
             errorMessage.id = "error-message";
             errorMessage.style.color = "red";
-            submit.parentNode.insertBefore(errorMessage, submit); 
+            dge.appendChild(errorMessage)
         }
     } else {
         
@@ -51,7 +53,7 @@ submit.addEventListener("click", function(event) {
             errorMessage1.textContent = "month must be in the past.";
             errorMessage1.id = "error-message1";
             errorMessage1.style.color = "red";
-            submit.parentNode.insertBefore(errorMessage1, submit); 
+            tve.appendChild(errorMessage1)
         }
     } else {
         
@@ -69,7 +71,7 @@ submit.addEventListener("click", function(event) {
             errorMessage2.textContent = "day must be in the past.";
             errorMessage2.id = "error-message2";
             errorMessage2.style.color = "red";
-            submit.parentNode.insertBefore(errorMessage2, submit); 
+            weli.appendChild(errorMessage2)
         }
     } else {
         
@@ -108,7 +110,7 @@ submit.addEventListener("click", function(event) {
             errorMessage3.textContent = "This field is required.";
             errorMessage3.id = "error-message3";
             errorMessage3.style.color = "red";
-            submit.parentNode.insertBefore(errorMessage3, submit); 
+            dge.appendChild(errorMessage3)
         }
     } else {
         
@@ -125,7 +127,7 @@ submit.addEventListener("click", function(event) {
             errorMessage4.textContent = "This field is required.";
             errorMessage4.id = "error-message4";
             errorMessage4.style.color = "red";
-            submit.parentNode.insertBefore(errorMessage4, submit); 
+            tve.appendChild(errorMessage4)
         }
     } else {
         
@@ -142,7 +144,7 @@ submit.addEventListener("click", function(event) {
             errorMessage5.textContent = "This field is required.";
             errorMessage5.id = "error-message5";
             errorMessage5.style.color = "red";
-            submit.parentNode.insertBefore(errorMessage5, submit); 
+            weli.appendChild(errorMessage5)
         }
     } else {
         if (existingMessage5) {
