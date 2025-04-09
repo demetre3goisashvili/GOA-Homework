@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio - Sign Up</title>
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+</head>
+<body>
+    <header class="w-full border border-black h-15 flex justify-around pt-5">
+        <nav>
+            <a href="home.html">Home</a>
+            <a href="#">Contact</a>
+            <a href="#">About</a>
+            <a href="signin.html">Sign In</a>
+            <a href="signup.html">Sign Up</a>
+        </nav>
+    </header>
+    <main class="text-center flex justify-center align-center">
+        <div class="h-180 w-100 bg-orange-100 border">
+            <form class="pt-10">
+                <label class="text-3xl font-sans" for="#name">Name</label><br><br>
+                <input class="border h-13 pl-5 text-2xl" id="name" type="text" placeholder="Name"><br><br>
+                <label class="text-3xl font-sans" for="#email">Email</label><br><br>
+                <input  class="border h-13 pl-5 text-2xl" id="email" type="email" placeholder="Email"><br><br>
+                <label class="text-3xl font-sans" for="#pass">Password</label><br><br>
+                <input class="border h-13 pl-5 text-2xl" id="pass" type="password" placeholder="Password"><br><br>
+                <input class="h-13 w-73 border bg-orange-500 cursor-pointer" type="submit">
+            </form>
+        </div>
+
+    </main>
+    <script src="signin.js"></script>
+
+    
+</body>
+</html>
