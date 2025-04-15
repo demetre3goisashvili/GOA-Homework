@@ -4,6 +4,7 @@ const Minusplus = () => {
     const [count, setCount] = useState(0)
     function increase(){
         setCount(count + 1)
+        setCount(count + 1)
     }
     function decrease(){
         setCount(count - 1)

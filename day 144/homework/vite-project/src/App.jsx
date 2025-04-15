@@ -1,16 +1,13 @@
 import { useState } from 'react'
 import './App.css'
-import Minusplus from './components/minusplus'
-import Add from './components/add'
+import Calculator from './components/calculator'
 
 function App() {
   const [count, setCount] = useState(0)
 
-
   return (
     <>
-    <Minusplus />
-    <Add />
+    <Calculator />
     </>
   )
 }
