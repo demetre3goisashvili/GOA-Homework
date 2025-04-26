@@ -42,8 +42,8 @@ const Calculator = () => {
   return (
     <>
       <div className=' text-center bg-cyan-200 h-screen'>
-        <input className='border h-13 pl-3' type="text" value={first}onChange={(e) => setFirst(e.target.value)}placeholder="first"/>
-        <input className='border h-13 pl-3' type="text"value={second}onChange={(e) => setSecond(e.target.value)}placeholder="second"/>
+        <input className='border h-13 pl-3' type="text" onChange={(e) => setFirst(e.target.value)}placeholder="first"/>
+        <input className='border h-13 pl-3' type="text"onChange={(e) => setSecond(e.target.value)}placeholder="second"/>
         <p className='font-sans text-4xl'>{res}</p>
         <button className='h-10 w-10 rounded-md bg-blue-500 mr-4 cursor-pointer hover:h-11 hover:w-11 hover:bg-blue-300 duration-200' onClick={Plus}>+</button>
         <button className='h-10 w-10 rounded-md bg-blue-500 mr-4 cursor-pointer hover:h-11 hover:w-11 hover:bg-blue-300 duration-200' onClick={Minus}>-</button>
